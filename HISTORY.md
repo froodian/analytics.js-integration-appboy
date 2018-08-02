@@ -1,3 +1,10 @@
+1.8.0 / 2018-08-02
+==================
+
+* Releases only update which has initialization hook into Braze callbacks (#26)
+* Revert `changeUser` change introduced in 1.7.0
+* The change had removed changeUser from track, page, group and completedOrder (#27).
+
 1.7.0 / 2018-07-31
 ==================
 
